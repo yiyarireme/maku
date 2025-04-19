@@ -23,7 +23,7 @@ function Cities() {
           <option value="">Choose a city</option>
           {cities.map(c => <option key={c} value={c}>{c}</option>)}
         </select>
-        <button className="btn btn-primary" onClick={fetchImages}>Get Weather</button>
+        <button className="btn btn-primary" onClick={fetchImages}>Get City</button>
       </div>
 
       <div className="row">
